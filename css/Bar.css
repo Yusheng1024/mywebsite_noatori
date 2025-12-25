@@ -1,0 +1,45 @@
+﻿.topBar {
+    display: flex;
+    justify-content: center;
+    background-color: #03405a;
+    background-position: top;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    position: fixed;
+    width: 100%;
+    padding: 20px 0;
+    z-index: 1000;
+    box-shadow: 5px 5px 5px #000000;
+    border-radius: 15px;
+}
+
+.bottomBar {
+    background-color: #03405a;
+    background-position: bottom;
+    text-align: center;
+    color: white;
+    width: 100%;
+    padding: 20px 0;
+    z-index: 1000;
+    box-shadow: 5px 5px 5px #000000;
+    border-radius: 15px;
+}
+
+.titleBar {
+    background-color: #03405a;
+    max-width: 25%;
+    margin: 0 auto;
+    border-radius: 15px; /*圓角設計*/
+    text-align: center;
+    box-shadow: 5px 5px 5px #000000;
+}
+
+.sliderBar {
+    display: flex;
+    justify-content: center;
+    background-color: #0d2f52;
+    padding-top: 200px;
+    padding-bottom: 900px;
+    margin: 0 auto;
+}

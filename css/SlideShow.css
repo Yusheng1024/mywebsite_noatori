@@ -1,0 +1,147 @@
+﻿.slider_container {
+    margin: 30px auto;
+    position: absolute; /* 暫時切換relative,fixed */
+    z-index: 0; /* 將圖片放入下層位置做背景的輪播 */
+    border: 0px solid;
+    border-color: #fff;
+    border-bottom-width: 100px;
+    background-color: #f5f5f5;
+    box-shadow: #666 0 0 5px;
+    box-sizing: content-box;
+}
+
+    .slider_container div {
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        filter: alpha(opacity=0);
+        -webkit-animation: round 20s linear infinite; /* 4張圖的合計總秒數20秒設計 */
+        animation: round 20s linear infinite; /* 4張圖的合計總秒數20秒設計 */
+    }
+
+        .slider_container div img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+@-webkit-keyframes round {
+    5% { /* 4張圖每張5秒輪播共20秒,100%除以20=每秒百分比,5%*第1秒=5% */
+        opacity: 1;
+        filter: alpha(opacity=100);
+        /* 0 - 1秒 淡入*/
+    }
+
+    25% { /* 100%除以20秒=5%，5%*第5秒=25% */
+        opacity: 1;
+        filter: alpha(opacity=100);
+        /* 1- 5秒靜止*/
+    }
+
+    30% { /* 100%除以20秒=5%，5%*第6秒=30% */
+        opacity: 0;
+        filter: alpha(opacity=0);
+        /* 5-6秒淡出*/
+    }
+}
+
+@keyframes round {
+    5% {
+        opacity: 1;
+        filter: alpha(opacity=100);
+        /* 0 - 1秒 淡入*/
+    }
+
+    25% {
+        opacity: 1;
+        filter: alpha(opacity=100);
+        /* 1- 5秒靜止*/
+    }
+
+    30% {
+        opacity: 0;
+        filter: alpha(opacity=0);
+        /* 5-6秒淡出*/
+    }
+}
+
+.slider_container div:nth-child(4) { /* 4張圖片的個別延遲5秒數設計 */
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+    border-radius: 25px;
+}
+
+.slider_container div:nth-child(3) {
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s;
+    border-radius: 25px;
+}
+
+.slider_container div:nth-child(2) {
+    -webkit-animation-delay: 6s;
+    animation-delay: 6s;
+    border-radius: 25px;
+}
+
+.slider_container div:nth-child(1) {
+    -webkit-animation-delay: 9s;
+    animation-delay: 9s;
+    border-radius: 25px;
+}
+
+.rwd_slider_container_wrapper {
+    width: 1260px; /* 圖片框的寬度設計 */
+    height: 200px; /* 圖片框的高度設計 */
+    max-width: 100%;
+    box-sizing: border-box;
+    box-shadow: #666 0 0 2px;
+    padding: 0px;
+    margin: 0 auto;
+    border-radius:25px;/**/
+}
+
+.rwd_slider_container {
+    position: relative;
+    display: block;
+    height: 0;
+    padding: 0;
+    box-sizing: border-box;
+    padding-bottom: calc(70% + 100px);
+}
+
+    .rwd_slider_container .slider_container {
+        box-shadow: none;
+        margin: 0;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        box-sizing: border-box;
+        border: none;
+        background-color: transparent;
+    }
+
+        .rwd_slider_container .slider_container div {
+            width: 100%;
+            line-height: 0;
+        }
+
+        .rwd_slider_container .slider_container span {
+            top: 100%;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+        }
+
+.slider_table{
+    width:100% ;
+    border-radius:15px;
+}
+
+.slider_picture {
+    border-radius: 25px; /**/
+}

@@ -1,0 +1,19 @@
+﻿/*the table with white border.*/
+
+table {
+    align-content: start;
+    border: dashed 2px #ffffff;
+    width: 90%;
+    table-layout: fixed;
+    vertical-align: text-top;
+}
+
+th, td {
+    border: dashed 2px #ffffff;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    text-shadow: 2px 2px 4px #000000;
+    font-family: 'Noto Sans JP';
+}

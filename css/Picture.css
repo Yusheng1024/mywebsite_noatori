@@ -1,0 +1,18 @@
+﻿.picture_type_1 {
+    width: 25%;
+    height: auto;
+}
+
+.picture_type_2 {
+    width: 50%;
+    height: auto;
+}
+
+.picture_type_3 {
+    width: 100%;
+}
+
+.picture_type_4 {
+    width: 90%;
+    border-radius: 15px;
+}
