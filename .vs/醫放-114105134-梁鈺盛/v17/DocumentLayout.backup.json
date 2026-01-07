@@ -81,8 +81,7 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2025-11-05T07:51:37.274Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -92,7 +91,7 @@
               "RelativeDocumentMoniker": "contentPage.html",
               "ToolTip": "D:\\\u5927\u5B78\u6821\u7528\\\u7DB2\u9801\u8996\u89BA\u7A0B\u5F0F\u8A2D\u8A08\\\u91AB\u653E-114105134-\u6881\u923A\u76DB\\contentPage.html",
               "RelativeToolTip": "contentPage.html",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAAAFYAAAA8AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFYAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2025-11-05T08:09:55.679Z",
               "IsPinned": true,
@@ -109,8 +108,7 @@
               "ViewState": "AgIAADAAAAAAAAAAAAAAAD4AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2025-11-05T07:52:14.538Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -123,8 +121,7 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2025-11-05T08:10:01.535Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -137,8 +134,7 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2025-11-05T07:53:25.322Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             }
           ]
         },
@@ -154,7 +150,7 @@
               "RelativeDocumentMoniker": "js\\Script1.js",
               "ToolTip": "D:\\\u5927\u5B78\u6821\u7528\\\u7DB2\u9801\u8996\u89BA\u7A0B\u5F0F\u8A2D\u8A08\\\u91AB\u653E-114105134-\u6881\u923A\u76DB\\js\\Script1.js",
               "RelativeToolTip": "js\\Script1.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2025-12-24T06:42:30.288Z",
               "EditorCaption": ""
@@ -169,8 +165,7 @@
               "RelativeToolTip": "css\\SongTable.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-12-24T06:22:01.618Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-24T06:22:01.618Z"
             },
             {
               "$type": "Document",
@@ -182,8 +177,7 @@
               "RelativeToolTip": "css\\Universal.css",
               "ViewState": "AgIAADMAAAAAAAAAAAAAAEIAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-12-17T06:32:48.534Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-17T06:32:48.534Z"
             },
             {
               "$type": "Document",
@@ -195,8 +189,7 @@
               "RelativeToolTip": "css\\Bar.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-12-17T06:37:18.373Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-17T06:37:18.373Z"
             },
             {
               "$type": "Document",
@@ -208,8 +201,7 @@
               "RelativeToolTip": "css\\SlideShow.css",
               "ViewState": "AgIAAH4AAAAAAAAAAAAAAJIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-12-17T06:37:01.151Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-17T06:37:01.151Z"
             },
             {
               "$type": "Document",
@@ -221,8 +213,7 @@
               "RelativeToolTip": "css\\Space.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-12-17T06:35:08.169Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-17T06:35:08.169Z"
             },
             {
               "$type": "Document",
@@ -234,8 +225,7 @@
               "RelativeToolTip": "css\\Picture.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-12-24T06:01:42.707Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-24T06:01:42.707Z"
             }
           ]
         }

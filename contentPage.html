@@ -55,32 +55,20 @@
 
     <!--調整內文的按鈕-->
     <center>
-        <button type="button" class="button_2" onclick="document.getElementById('introduction').style.fontSize='28px' ">
-            設定為28px
+        <button type="button" class="button_2" onclick="class_set('1')">
+            組合一
         </button>
-        <button type="button" class="button_2" onclick="document.getElementById('introduction').style.fontSize='24px' ">
-            設定為24px
+        <button type="button" class="button_2" onclick="class_set('2')">
+            組合二
         </button>
-        <button type="button" class="button_2" onclick="document.getElementById('introduction').style.fontSize='20px' ">
-            設定為20px
+        <button type="button" class="button_2" onclick="class_set('3')">
+            組合三
         </button>
-        <button type="button" class="button_2" onclick="document.getElementById('introduction').style.fontSize='16px' ">
-            設定為16px
-        </button>
-        <br />
-        <button type="button" class="button_2" onclick="document.getElementById('introduction').style.color='#ffffff' ">
-            白色主題
-        </button>
-        <button type="button" class="button_2" onclick="document.getElementById('introduction').style.color='#e55cc1' ">
-            桃紅主題
-        </button>
-        <button type="button" class="button_2" onclick="document.getElementById('introduction').style.color='#05fbb8' ">
-            綠光主題
-        </button>
-        <button type="button" class="button_2" onclick="document.getElementById('introduction').style.color='#9bb1ff' ">
-            淺紫主題
+        <button type="button" class="button_2" onclick="class_set('reset')">
+            重置
         </button>
         <br />
+
         <button type="button" class="button_2" onclick="hide()">
             隱藏文章
         </button>
@@ -89,6 +77,20 @@
         </button>
     </center>
 
+    <!--下拉選單-->
+    <center>
+        <select id="select_1" class="button_2">
+            <option value="">請選擇樣式</option>
+            <option value="1">灰白主題</option>
+            <option value="2">桃紫主題</option>
+            <option value="3">綠光主題</option>
+            <option value="4">星空主題</option>
+        </select>
+
+        <button class="button_2" onclick="applyStyle()">
+            套用
+        </button>
+    </center>
     <div class="space_100">
         <center>
             <img border="0" src="picture/natori.jpg" class="picture_type_4" />
